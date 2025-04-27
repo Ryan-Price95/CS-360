@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/editTextItemId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_id_hint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/item_name_hint"
+        android:inputType="text"
+        android:autofillHints="name" />
+
+    <EditText
+        android:id="@+id/editTextItemQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/quantity_hint"
+        android:inputType="number"
+        android:autofillHints="postalCode" />
+
+    <EditText
+        android:id="@+id/editTextItemLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/location_hint"
+        android:inputType="text"
+        android:autofillHints="postalAddress" />
+</LinearLayout>
